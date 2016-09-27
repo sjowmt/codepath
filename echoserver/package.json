@@ -1,0 +1,28 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "proxy server for codepath entry",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --log t1.log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sjowmt/codepath.git"
+  },
+  "keywords": [
+    "codepath",
+    "nodejs",
+    "proxyserver"
+  ],
+  "author": "sjowmt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjowmt/codepath/issues"
+  },
+  "homepage": "https://github.com/sjowmt/codepath#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "yargs": "^3.32.0"
+  }
+}
